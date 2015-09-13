@@ -7,9 +7,14 @@ CONTENTS
 ========
 
 - A_FLUX_RSS
+  Working with data from RSS web links.
 - B_TEXT ANALYSIS
+  Various methods for parsing texts.
 - C_MAPS
-- D_SUNDRIES & MISC
+  Working with the Unfolding library to map data.
+- D_FILES
+  Parsing data stored in files.
+- E_SUNDRIES & MISC
  
 
 ![screen shot 2015-09-08 at 10 58 02 am](https://cloud.githubusercontent.com/assets/1027891/9792475/8e7d949a-57e0-11e5-85e3-be6f20d1b77f.png)
