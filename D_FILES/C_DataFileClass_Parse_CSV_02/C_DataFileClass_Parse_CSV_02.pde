@@ -11,7 +11,7 @@
  - Reads incoming data from a file
  - Prints all data in console
  
- ** NOTE ALICE
+ ** NOTE 
  ce skektch est quasiment le même que le premier, sauf qu'on récupère
  maintenant toutes les données de notre fichier et on les affiche dans
  la console en bas
@@ -39,7 +39,7 @@ void draw() {
 /////////////////////////////////////////////////////////////////////////////////
 void initData() {  
   // Charger le fichier csv qui se trouve dans le dossier data
-  data = new FloatTable("openpaths_Alice04041212.csv");
+  data = new FloatTable("openpaths_01.csv");
 
   // ensuite on va dans un premier temps juste afficher les données
   // qui nous intéressent dans la console en bas en utilsant les méthodes
