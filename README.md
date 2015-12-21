@@ -1,4 +1,4 @@
-# BIG DADA
+# BIG DADA (Version Française)
 Processing Sketches for Graphic Designers
 
 *NOTE : Sketch commentary in French | commentaires dans les Sketches Processing en français.
