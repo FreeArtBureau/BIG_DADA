@@ -15,7 +15,7 @@ PLUS D'INFO : http://fr.wikipedia.org/wiki/Delicious
 // voir l'onglet INFO (changer l'adresse pour avoir
 // d'autres données
 String api  = "http://feeds.delicious.com/v2/rss/tags/"; 
-String user = "motiondesign"; // changer le nom d'utilisateur ici
+String user = "v3ga"; // changer le nom d'utilisateur ici
 int x = 10;
 int y = 20;
 

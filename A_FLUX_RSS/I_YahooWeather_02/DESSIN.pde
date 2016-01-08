@@ -23,8 +23,8 @@ void lines() {
   stroke(0);
   strokeWeight(0.5);
 
-  for (int yPos=75; yPos<height-75; yPos+=10) {
-    for (int xPos=75; xPos<width-75; xPos+=10) {
+  for (int yPos=75; yPos<height-75; yPos+=6) {
+    for (int xPos=75; xPos<width-75; xPos+=6) {
       float windSpeed =  map(vitesseVent, 0, 120, 0, 0.8);
       float z = frameCount*windSpeed;
       float offSet = noise(xPos*noiseScale, yPos*noiseScale, z) * noiseAmm;

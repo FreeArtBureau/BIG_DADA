@@ -7,6 +7,8 @@
  RSS_Reader_01
  --------------
  
+ REF : https://processing.org/reference/XML.html
+ 
  */
 
 ///////////////////////////////// GLOBALS //////////////////////////////
@@ -23,7 +25,7 @@ void setup() {
   textFont(myFont);
   fill(255);
   /*
-  // Quelques adresses RSS (Il en existe beaucoup donc n'hésitez pas d'essayer d'autres adresses) :
+  // A few RSS web addresses. Many more can be found :
    http://newsrss.bbc.co.uk/rss/newsonline_world_edition/technology/rss.xml
    http://feeds.bbci.co.uk/news/uk/rss.xml
    http://rss.liberation.fr/rss/9/
@@ -32,7 +34,7 @@ void setup() {
    */
 
   // Adresse WEB
-  String url = "http://rss.liberation.fr/rss/9/"; 
+  String url = "http://feeds.bbci.co.uk/news/uk/rss.xml"; 
 
   // On charge l'adresse dans un objet XML 
   XML rss = loadXML( url );
